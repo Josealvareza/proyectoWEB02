@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/programa.js"></script>
+    <title>Sitio Web 2</title>
+</head>
+<body>
+    <div id="principal">
+        <p id="titulo" onmouseover="cambiarColor()" onmouseleave="restablecerColor()">Pares E Impares</p>                                            
+        <div id="formulario">
+            <div><p>Ingrese un numero de 4 digitos</p></div>
+            <div><input type="text" id="numero4D"></div>
+            <div><button id="obtener" onclick="obtenerParesImpares()">Obtener Pares E Impares</button></div>
+            <div><p>Total Pares</p></div>
+            <div><input type="text" id="pares" value="Total pares"></div>
+            <div><p>Total Impares</p></div>
+            <div><input type="text" id="impares" value="Total impares"></div>
+            <div><p>Total ceros</p></div>
+            <div><input type="text" id="ceros" value="Total ceros"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+#principal {
+    width: 50%;
+    background-color: bisque;
+    margin: auto;
+    padding: 20px;
+}
+
+#titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#formulario {
+    padding: 30px;
+    border: 5px solid cornflowerblue;
+    border-radius: 15%;
+    width:  40%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-row-gap: 10px;
+}
